@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-servers',
+  templateUrl: './servers.component.html',
+  styleUrls: ['./servers.component.css']
+})
+export class ServersComponent  {
+
+  serverID: number = 10;
+  serverStatus: string = 'offline';
+
+  getServerStatus(){
+
+  }
+
+}
